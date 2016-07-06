@@ -1,0 +1,17 @@
+*{
+	list-style-type: none;
+	margin: 0px;
+	padding:0px 0px;
+}
+.background{
+	background-image: url(../assets/img/background.jpg);
+}
+.page_title{
+	color:white;
+}
+.head{
+	padding:0px;
+}
+.start{
+	color:white;
+}

@@ -1,10 +1,14 @@
 *{
 	list-style-type: none;
 	margin: 0px;
-	padding:0px;
+	padding:0px 0px;
+}
+.background{
+	background-image: url(../assets/img/background.jpg);
 }
 .page_title{
-	padding:0px 50px 10px 550px;
+	padding:0px 0px 0px 500px;
+	color:white;
 }
 .home{
 	padding: 0px 50px 0px 240px; 
@@ -16,12 +20,14 @@
 	padding: 0px 50px 0px 225px;
 
 }
-.logo{
-	padding: 0px 0px 0px 100px;
-	width: 300px;
-	height: 150px;
-}
 .welcome{
-	padding: 100px 0px 0px 100px; 
+	padding: 50px 0px 0px 100px; 
+	color: white;
 }
+.head{
+	padding:0px 0px;
+}
+
+
+
 
