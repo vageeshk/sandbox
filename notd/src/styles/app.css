@@ -3,19 +3,27 @@
 	margin: 0px;
 }
 .page_title{
-	padding:50px 50px 10px 550px;
+	padding:0px 50px 10px 550px;
 }
 .top_nav{
 	float: left;
-	padding: 5px 50px 50px 50px;
+	padding: 0px 200px 5px 0px;
 }
 .home{
-	padding: 0px 50px 0px 300px; 
+	padding: 0px 50px 0px 240px; 
 }
 .about{
-	padding: 0px 50px 0px 200px;
+	padding: 0px 50px 0px 250px;
 }
 .contact{
-	padding: 0px 50px 0px 200px;
+	padding: 0px 50px 0px 225px;
 
+}
+.logo{
+	padding: 50px 50px 0px 50px;
+	width: 300px;
+	height: 150px;
+}
+.welcome{
+	padding: 100px 0px 0px 100px; 
 }
