@@ -1,4 +1,21 @@
+*{
+	list-style-type: none;
+	margin: 0px;
+}
 .page_title{
 	padding:50px 50px 10px 550px;
 }
+.top_nav{
+	float: left;
+	padding: 5px 50px 50px 50px;
+}
+.home{
+	padding: 0px 50px 0px 300px; 
+}
+.about{
+	padding: 0px 50px 0px 200px;
+}
+.contact{
+	padding: 0px 50px 0px 200px;
 
+}
