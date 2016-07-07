@@ -7,27 +7,28 @@ body{
 	text-align: center;
 	background-image: url(../assets/img/background.jpg);
 	color:white;
-	padding:20px 0px 10px 0px;
+	padding:1% 0% 1% 0%;
 }
 .basic{
 	font-family: "Georgia", Times, serif;
-	font-size: 50px;
+	font-size: 2.6em;
 }
 p{
-	padding:30px 10px 5px 50px;
-	font-size: 25px;
+	padding:1% .5% 0% 2%;
+	font-size: 1.8em;
 }
 .overview{
 	text-decoration: underline;
+	font-size: 2.5em;
 }
 div{
-	padding:10px 10px 5px 50px;
-	font-size: 20px;
+	padding:1% 1% .5% 4%;
+	font-size: 1.8em;
 	
 }
 .img{
-	padding:20px 0px 0px 400px;
+	padding:1% 0% 0% 40%;
 }
-h3{
+h2{
   text-decoration: underline;
 }

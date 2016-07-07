@@ -7,22 +7,22 @@ body{
 	text-align: center;
 	background-image: url(../assets/img/background.jpg);
 	color:white;
-	padding:20px 0px 10px 0px;
+	padding:1% 0% 1% 0%;
 }
 .workflow{
 	font-family: "Georgia", Times, serif;
-	font-size: 50px;
+	font-size: 3.5em;
 }
 h3{
-	padding: 30px 10px 5px 50px;
-	font-size: 35px;
+	padding: 1% .5% 0% 2%;
+	font-size: 2em;
 	font-weight: bold;
 	font-family: "Constantia", Times, serif;
 }
 p{
-	padding:10px 20px 5px 40px;
-	font-size: 25px;
+	padding:.5% 1% 0% 2%;
+	font-size: 1.8em;
 }
 .img{
-	padding:20px 0px 0px 200px;
+	padding:1% 0% 0% 15%;
 }
