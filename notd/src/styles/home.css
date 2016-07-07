@@ -5,13 +5,16 @@
 }
 .background{
 	background-image: url(../assets/img/background.jpg);
+	background-repeat:  repeat-x repeat-y;
 }
 .page_title{
 	color:white;
+	padding: 0px;
 }
 .head{
 	padding:0px;
 }
 .start{
 	color:white;
+	padding:0px 0px 50px 0px;
 }
