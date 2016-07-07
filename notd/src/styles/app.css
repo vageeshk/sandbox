@@ -4,8 +4,9 @@
 	padding:0px 0px;
 }
 .background{
-	background-image: url(../assets/img/background.jpg);
+	background-image: url(../assets/img/index_back.png);
 	padding:40px 0px 0px 0px;
+	background-attachment: fixed;
 }
 .page_title{
 	padding:0px 0px 0px 500px;
@@ -18,7 +19,7 @@
 	padding: 0px 50px 0px 250px;
 }
 .contact{
-	padding: 0px 50px 0px 225px;
+	padding: 0px 50px 0px 250px;
 
 }
 .welcome{

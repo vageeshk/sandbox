@@ -4,8 +4,9 @@
 	padding:0px 0px;
 }
 .background{
-	background-image: url(../assets/img/background.jpg);
-	background-repeat:  repeat-x repeat-y;
+	background-image: url(../assets/img/index_back.png);
+	background-attachment: fixed;
+	padding:40px 0px 0px 0px;
 }
 .page_title{
 	color:white;
