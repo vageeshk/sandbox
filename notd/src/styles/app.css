@@ -1,33 +1,31 @@
 *{
 	list-style-type: none;
-	margin: 0px;
-	padding:0px 0px;
+	margin: 0%;
+	padding:0%;
 }
 .background{
 	background-image: url(../assets/img/index_back.png);
-	padding:40px 0px 0px 0px;
+	padding:3% 0% 5% 0%;
 	background-attachment: fixed;
+	height:100%;
 }
 .page_title{
-	padding:0px 0px 0px 500px;
+	padding:0% 0% 0% 40%;
 	color:white;
 }
 .home{
-	padding: 0px 50px 0px 240px; 
+	padding: 0% 2% 0% 20%; 
 }
 .about{
-	padding: 0px 50px 0px 250px;
+	padding: 0% 2% 0% 20%;
 }
 .contact{
-	padding: 0px 50px 0px 250px;
+	padding: 0% 2% 0% 20%;
 
 }
 .welcome{
-	padding: 50px 0px 0px 100px; 
+	padding: 2% 0% 0% 5%; 
 	color: white;
-}
-.head{
-	padding:0px 0px;
 }
 
 
