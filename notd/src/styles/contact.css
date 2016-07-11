@@ -10,3 +10,20 @@ p{
 	font-family: "Georgia", Times, serif;
 	
 }
+.home{
+	padding: 0% 2% 2% 30%;
+	color:#1a75ff;
+}
+.about{
+	padding: 0% 2% 2% 20%;
+	color:#1a75ff;
+}
+.pageindex{
+	color:white;
+	padding:1% 0% 1% 34%;
+}
+.page_title{
+	color:white;
+	padding: 0%;
+	 text-decoration: underline;
+}

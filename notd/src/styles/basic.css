@@ -7,23 +7,23 @@ body{
 	text-align: center;
 	background-image: url(../assets/img/background.jpg);
 	color:white;
-	padding:1% 0% 1% 0%;
+	padding:2% 0% 2% 0%;
 }
 .basic{
 	font-family: "Georgia", Times, serif;
-	font-size: 2.6em;
+	font-size: 1.2em;
 }
 p{
 	padding:1% .5% 0% 2%;
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 .overview{
 	text-decoration: underline;
-	font-size: 2.5em;
+	font-size: 2.0em;
 }
 div{
 	padding:1% 1% .5% 4%;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	
 }
 .img{
@@ -31,4 +31,22 @@ div{
 }
 h2{
   text-decoration: underline;
+}
+.about{
+	padding: 0% 2% 0% 20%;
+}
+.contact{
+	padding: 0% 2% 0% 20%;
+
+}
+.pageindex{
+	color:black;
+	padding:1% 0% 5% 34%;
+}
+.home{
+	padding: 0% 2% 0% 10%;
+
+}
+.sec_nav{
+	font-size: 2.5em;
 }
