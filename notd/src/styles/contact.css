@@ -1,0 +1,12 @@
+body{
+	background-image: url(../assets/img/index_back.png);
+	background-attachment: fixed;
+	padding:2% 0% 0% 0%;
+}
+p{
+	color: white;
+	padding: 2% 0% 0% 5%;
+	font-size: 1.5em;
+	font-family: "Georgia", Times, serif;
+	
+}
