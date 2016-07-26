@@ -16,8 +16,8 @@ app.controller('myctrl', function($scope, /*id*/$log) {
      $log.log("showing the count");
   }*/
   $scope.userCnt= function(){
-    $scope.user=angular.copy($scope.cnt);
+    $scope.user=$scope.cnt;
   }
    $log.log($scope.count);
    $scope.userCnt();
-});
+}); 
