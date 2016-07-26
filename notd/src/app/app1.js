@@ -12,12 +12,12 @@ app.controller('myctrl', function($scope, /*id*/$log) {
        $log.log($scope.count);
   $log.log("reporting from app.js");
   }*/
-  var session= function(cnt){
-     
+  /*var session= function(){
      $log.log("showing the count");
-     return cnt;
+  }*/
+  $scope.userCnt= function(){
+    $scope.user=angular.copy($scope.cnt);
   }
-   var cnt;
-   $scope.count =session(10);
    $log.log($scope.count);
+   $scope.userCnt();
 });
