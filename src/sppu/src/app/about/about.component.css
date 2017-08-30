@@ -1,0 +1,42 @@
+.homeTitle{
+	font-family: 'Marvel','sans-serif';
+	font-size:30px;
+	line-height:1.3em;
+	color: #444;
+}
+.aboutTitle{
+	font-family: 'Marvel','sans-serif';
+	margin-top:2px;
+	margin-bottom:2px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.aboutImage{
+	background-image: url(../../assets/img/About_back.png);
+	background-repeat: 50% 50% repeat;
+}
+.grad{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+83,0e0e0e+92,0e0e0e+92,0e0e0e+92,0e0e0e+92,0e0e0e+92,0e0e0e+93,0e0e0e+93,0e0e0e+94 */
+background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 83%, #0e0e0e 92%, #0e0e0e 92%, #0e0e0e 92%, #0e0e0e 92%, #0e0e0e 92%, #0e0e0e 93%, #0e0e0e 93%, #0e0e0e 94%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 83%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 93%,#0e0e0e 93%,#0e0e0e 94%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 83%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 92%,#0e0e0e 93%,#0e0e0e 93%,#0e0e0e 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+.grad:hover{
+	background-color: lightsteelblue !important;
+}
+
+.accolades{
+	width:250px;
+	height:500px;
+	border:1px solid black;
+	border-radius: 12px;
+	background-color: black;
+	box-sizing: border-box;
+	max-height: 100%;
+	overflow-y: hidden;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 3%;
+}

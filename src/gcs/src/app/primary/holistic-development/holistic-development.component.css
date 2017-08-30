@@ -1,0 +1,25 @@
+.content{
+	background:#FEFE99;
+	background:#FFFFC3;
+}
+.margin-style{
+	margin-left: 1%;
+}
+h4{
+	font-weight: bold;
+	color:#800000;
+}
+.title-display{
+	font-weight:bold;
+	color:#800000;
+	border-bottom:#0B4C72 1px solid;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.arrow-points li{	
+	background:url(../../../assets/img/arrow.png) no-repeat left center;
+	padding: 3px;
+	padding-left: 22px;
+	line-height: 25px;
+	list-style: none;	
+}

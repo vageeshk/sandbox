@@ -1,0 +1,35 @@
+.left {
+    float: left;
+    width: 50%;   
+    margin: 2px 10px;
+    display: inline;
+}
+.right {
+    text-align: right;
+    margin: 2px 10px;
+}
+.ct-mono {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.1em;
+    padding: 15px;
+}
+.cal-default {
+  color:#222;
+}
+.cal-holiday {
+  color:#a59a9a;
+}
+.cal-today {
+  color: #32db64;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.col-sm-1 {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 97px;
+  height: 80px;
+  text-align: right;
+}

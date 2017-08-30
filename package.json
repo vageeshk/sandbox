@@ -1,0 +1,25 @@
+{
+  "name": "vvs",
+  "version": "0.0.0",
+  "description": "VVS Sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abhaykulkarni/vvs.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "815c632934f6c1184c72b619e6f71118626798dd",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-concat": "~2.6.0",
+    "jshint": "~2.9.1-rc2",
+    "gulp-jshint": "~2.0.0",
+    "gulp-uglify": "~1.5.1",
+    "gulp-useref": "~3.0.4"
+  }
+}

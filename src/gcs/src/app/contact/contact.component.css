@@ -1,0 +1,25 @@
+.content{
+	background:#FEFE99;
+	background:#FFFFC3;
+}
+.right-panel{
+	display: inline-block;
+	vertical-align:top;
+	padding-top:0px 25px;
+}
+.container h2{
+	font-weight:bold;
+	color:#800000;
+	border-bottom:#0B4C72 1px solid;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.address{
+	font-size:24px;
+	color:#800;
+	padding-top:25px;
+}
+.left-panel{
+	width:540px;
+	display:inline-block;
+}

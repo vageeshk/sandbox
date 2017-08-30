@@ -1,0 +1,24 @@
+.content{
+	background:#FEFE99;
+	background:#FFFFC3;
+}
+.left-panel{
+	width:540px;
+	display:inline-block;
+}
+.title-display{
+	font-weight:bold;
+	color:#800000;
+	border-bottom:#0B4C72 1px solid;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.right-panel{
+	display: inline-block;
+	vertical-align:top;
+	padding-top:0px 25px;
+}
+h4{
+	font-weight: bold;
+	color:#800000;
+}

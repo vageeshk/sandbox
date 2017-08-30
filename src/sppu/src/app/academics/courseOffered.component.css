@@ -1,0 +1,28 @@
+.homeTitle{
+	font-family: 'Marvel','sans-serif';
+	font-size:30px;
+	line-height:1.3em;
+	color: #444;
+}
+.sub{
+	background-color:#FFF5EE;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.p1{
+	background-color: #F5DEB3;
+    text-align:right;
+    padding-right:4%;
+}
+.p2{
+	background-color:#FFEFD5;
+    text-align:right;
+    padding-right:4%;
+}
+.tbl{
+    width:700px;
+    margin-left:120px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}

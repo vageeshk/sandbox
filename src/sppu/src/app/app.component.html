@@ -1,0 +1,77 @@
+<div class="wrapper">
+	<div>
+		<div class="container-fluid containerHead">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="headLeft"></div>
+					<div class="headMid">
+						<h1 class="site-title">
+							<img src="assets/img/vvslogo.png" title="Vidya Vardha Sangha Logo"><span>Sardar Patel PU College </span><br>
+							<div class="site-description">Vidya Vardhaka Sangha</div>
+						</h1>
+						<h5 class="pull-right"><div class="ctLink"><a style="text-decoration:none !important;color:gray" href="http://campustrack.net/#/home" target="_blank"> CampusTrack  </a></div></h5>
+					</div>
+					<div class="headRight"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="carousel slide" data-ride="carousel" style="margin-top:-132px;z-index:-1">
+						<div class="carousel-inner" role="listbox" style="margin-top:-132px;z-index:-1;border-radius:4px;">
+							<div class="item active">
+								<img src="assets/img/sppu-masthead.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="assets/img/sppu-masthead.jpg" alt="...">
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div id="access2" role="navigation">
+					<ul class="nav nav-tabs sppu-nav-tabs">
+						<li role="presentation" [routerLinkActive]="['active']"><a routerLink="/home">Home</a></li>
+						<li role="presentation" [routerLinkActive]="['active']"><a routerLink="/about">About Us</a></li>
+						<li role="presentation" class="dropdown" [routerLinkActive]="['active']" style="cursor:pointer">
+							<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" routerLink="/facultyDetails"
+							aria-expanded="false">Academics<span class="caret"></span></a>
+							<ul class="dropdown-menu acadDrop" style="margin-left:-3%">
+								<li [routerLinkActive]="['active']"><a routerLink="/facultyDetails">Faculty Details</a></li>
+								<li [routerLinkActive]="['active']"><a routerLink="/courseOffered">Courses Offered</a></li>
+							</ul>
+						</li>
+						<li role="presentation" [routerLinkActive]="['active']"><a routerLink="/campusTour">Campus Tour</a></li>
+						<li role="presentation" [routerLinkActive]="['active']"><a routerLink="/contact">Contact Us</a></li>
+						<li role="presentation" [routerLinkActive]="['active']"><a routerLink="/news">News</a>
+						</li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="content">
+        <router-outlet></router-outlet>
+	</div>
+	<div class="footer">
+		<div class="footerMidImg">
+			<div class="row">
+				<div class="col-md-9 text-center" style="padding-left:72px;">
+					<div class="text-center footc">Copyright 2016 | <a style="color:#6362B7;" ui-sref="home"> Vidya Vardhaka Sangha </a></div>
+					<div class="text-center foota">Address:"Mangala Dhama", II Block, III Stage, Basaveswara Nagar, Bangalore - 560079. Phone - +91.80.2323.5912</div>
+					<div class="text-center footl"><a class="qlinks" routerLink="/home">Home</a> | <a class="qlinks" routerLink="/about">About Us</a> | <a class="qlinks" routerLink="/facultyDetails"> Academics </a>							| <a class="qlinks" routerLink="/campusTour"> Campus Tour </a> | <a class="qlinks" routerLink="/contact"> Contact Us </a>							| <a class="qlinks" routerLink="/news"> News </a> </div>
+				</div>
+				<div style="padding-top:40px;padding-left:50px;" class="col-md-3">
+					<div class="col-md-1">
+							<img class="footerline" src="assets/img/footer_line.png">
+					</div>
+					<div class="col-md-1">
+							<a href=""><img src="assets/img/facebook.png"></a>
+					</div>
+					<div style="margin-left:20px;" class="col-md-1">
+							<a href=""><img src="assets/img/twitter.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

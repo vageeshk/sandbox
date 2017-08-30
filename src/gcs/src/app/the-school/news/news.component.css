@@ -1,0 +1,26 @@
+.margin-style{
+	margin-left: 1%;
+}
+.title-display{
+	font-weight:bold;
+	color:#800000;
+	border-bottom:#0B4C72 1px solid;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+h4{
+	font-weight: bold;
+	color:#800000;
+}
+.SchoolNewsImageOdd{
+	margin-bottom:10px;
+	border-radius:8px;
+}
+.SchoolNewsTitle{
+	color:#800000;
+}
+.newsWrap{
+	margin-left:auto;
+	margin-right:auto;
+	width:85%;
+}

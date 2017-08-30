@@ -1,0 +1,19 @@
+<div class="container-fluid margin-style newsWrap">
+  <h4 class="title-display">News & Events</h4>
+  <div *ngFor="let news of m.News ; let i = index" id="div{{i}}" >
+      <div style="margin-bottom:1%">
+        <div class="SchoolNewsTitle">{{news.Title}}
+            <span style="opacity:0.3;font-size:0.9em;padding-right:0.5%;" class="pull-right"> {{news.Date}} </span>
+        </div>
+        <div>{{news.Description}}</div>
+        <div style="padding-top:1%;text-align:center">
+            <span *ngFor="let image of news.Image" style="padding-right:2%">
+                <img class="SchoolNewsImageOdd" src="{{image}}" />
+            </span>
+        </div>
+      </div>
+  </div>
+  <div #div3>
+      &nbsp;
+  </div>
+</div>

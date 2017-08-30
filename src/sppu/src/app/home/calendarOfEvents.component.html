@@ -1,0 +1,31 @@
+<div class="container-fluid margin-style">
+        <div class="row" style="padding-bottom:2%">
+                <div class="col-md-9">
+                        <h3 class="homeTitle"> Calendar of Events </h3>
+                        <p style="color: #0000ff; font-size: 15px; font-family: Tahoma;"><em>*Dates are Provisional. Specific dates will be announced subsequently.</em></p>
+                        <div></div>
+                </div>
+                <div class="col-md-3">
+                        <!--<h5 class="rightTitle"> Upcoming Events </h5>
+                    <p style="color:grey"><em> The are no upcoming events.</em></p>-->
+                </div>
+        </div>
+        <div>
+                <div class="left" style="margin-top: 0px;">
+                        <h2 style="margin-top: 0px;">{{m.selected_month}}</h2>
+                </div>
+                <div class="right" style="display: inline;margin-left: 8%;">
+                        <button type="button" class="btn btn-default" (click)="today()">today</button>
+                        <div class="btn-group">
+                                <button  type="button" class="btn btn-default" (click)="left()"><span><i class="fa fa-angle-left"></i></span></button>
+                                <button  type="button" class="btn btn-default" (click)="right()"><span><i class="fa fa-angle-right"></i></span></button>
+                        </div>
+                </div>
+        </div>
+        <div class="ct-mono">
+                <div class="row" *ngFor="let row of m.date_rows; let i = index">
+                       <div *ngIf="i !== 0"><div class="col-sm-1" *ngFor="let cell of row"><span [class]="cell.css_class">{{('&nbsp;&nbsp;' + cell.value).slice(-2)}}</span></div></div>
+                       <div *ngIf="i == 0"><div class="col-sm-1" style="font-size: 1.2em;height: 25px;font-weight: bold;text-align: center;" *ngFor="let cell of row"><span [class]="cell.css_class">{{('&nbsp;&nbsp;' + cell.value).slice(-2)}}</span></div></div>
+                </div>
+        </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="container-fluid margin-style">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="homeTitle"> Welcome To Our Institute </h3>
+            <img src="assets/img/home_img.png">
+            <p  class="content-style" style="margin-top:-145px; padding-left:190px"> Founded in the year 1957, on DEEPAVALI-BALIPADYAMI Day, Vidya Vardhaka Sangha has completed
+                    Fifty Years of significant service to Education. Having risen from humble beginnings, the
+                    Sangha’s name has come to be reckoned with in the field of education today. Its growth
+                    has always run parallel to the need and the demand of people and providing quality
+                    education at affordable costs has been its objective. In this manner, it now caters
+                    to about 5000 students in its various institutions from Play Home to First Grade
+                    College.
+            </p>
+            <p class="content-style">Its dedicated and conscientious staff is its major assets being responsible for the name
+                    it has earned today. V.V.S has diversified its services in the fields of medicine,
+                    fine arts and computer literacy. It has paid equal attention to equipping its teachers
+                    with modern methodologies of teaching. Cautious consolidation rather than indiscreet
+                    expansion has been the major concern of V.V.S.</p>
+            <h4 class="homeChar">Unique Characteristics : </h4>
+            <ul class="content-style" style="list-style-type:square;padding-left:3%">
+                <li>Disciplined Education with modernity aptly mixed with the Indian Cultural background.</li>
+                <li>Classroom teaching adequately supplemented by modern Audio Visual aids.</li>
+                <li>The Conscious effort at equipping the teachers with modern Teaching methods.</li>
+                <li>Sufficient emphasis on Sports and Extra Curricular Activities.</li>
+                <li>Computer Education hand in hand with the curriculum.</li>
+                <li style="margin-bottom:100px;">Personal attention and care through Monitoring, Tutorials, Low-Achiever and High Achiever classes.</li>
+            </ul>
+        </div>
+        <div style="margin-top:50px;" class="col-md-4">
+            <div>
+                <img style="cursor:pointer" routerLink="/calendarOfEvents" src="assets/img/calendar-b.png">
+            </div>
+            <div class="panel panel-default homeTable">
+                <div class="panel-body">
+                    <div class="recNews">Recent News</div>
+                    <div *ngFor="let news of m.news ;" class="recNewsCont"><a fragment="{{news.newsId}}" [routerLink]="['/news']" style="color:#0066CC">{{news.Title}}</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

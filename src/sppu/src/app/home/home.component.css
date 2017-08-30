@@ -1,0 +1,25 @@
+.recNews{
+	font-family: 'Marvel','sans-serif';
+	text-align:center;
+	font-size:22px;
+	color:#222;
+	margin-top: -10px;
+	cursor: pointer;
+    margin-bottom:3%;
+}
+.recNewsCont{
+	text-align: left;
+	font-size: 13px !important;
+	padding-bottom: 22px;
+}
+.recNewsCont:hover>a{
+	 text-decoration: underline;
+	 color: red !important; 
+	 cursor: pointer;
+}
+.homeTable{
+	margin-top:20px;
+	height:300px;
+	background-color: #f2f2f2;
+	width: 250px !important;
+}
