@@ -1,0 +1,86 @@
+<div class="container-fluid margin-style">
+        <div class="row">
+                <div class="col-md-12">
+                        <h3 class="heading">About VVS GCS</h3>
+                        <div class="row">
+                                <div class="col-md-9">
+                                        <marquee scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();" ui-sref="school.news" class="headline">
+                                             <em>
+                                                <span style="text-decoration:underline;">Lower Primary activities for the month of August.</span>
+                                             </em>
+                                        </marquee>
+                                </div>
+                                <div class="col-md-3">
+                                        <div style="padding-right:15px;">
+                                                <a class="pull-right download-brochure btn-xs" href="assets/pdf/gcs-brochure.pdf" download>Download Brochure</a>
+                                        </div>
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+        <hr/ style="width:100%;margin-top:3px;">
+                <div class="row">
+                        <div class="col-md-7">
+                                <h4 class="heading">Mission</h4>
+                                <p><b><i>To provide holistic education comprising facts of academics, culture, spirituality, ethics, heritage, environment, sports and hobbies.</i></b></p>
+                                <h4 class="heading"> Vision </h4>
+                                <p><b><i>To provide high quality in education and set high standards.</b></i>
+                                </p>
+
+                                <p>The V.V.S. Gandhi Centenary School, or V.V.S.G.C.School as it is popularly known as, was
+                                        started in the year 1969, the Birth Centenary year of Mahatma Gandhi. This is the
+                                        Primary wing of the Vidya Vardhaka Sangha.</p>
+
+                                <p>The school has grown in leaps and bounds since inception. The institution conducts classes
+                                        from Play School (2½ yrs.) to Std VII – i.e., the Primary School. The school has
+                                        two campuses viz., Saptharshidhama and Dhruvadhama.</p>
+
+                                <p>The Play School or the Pre-Nursery section and the Lower Primary School i.e., Std I to IV
+                                        are housed in the Saptharshidhama. The Nursery section and the Higher Primary operate
+                                        from the Dhruvadhama campus. Each unit works under a Headmistress and the overall
+                                        management is carried out by the Principal.</p>
+
+                                <p>The units are staffed by 76 well qualified and trained teachers. The total number of students
+                                        in all the 4 units is about 1,600 students.</p>
+                                <h4 class="heading"> Management Team </h4>
+                                <img src="assets/img/managementTeam.jpg" style="margin-bottom:12px;">
+                        </div>
+                        <div class="col-md-5">
+                                <h4> Latest News & Events: </h4>
+                                <div class="event-wrapper">
+                                        <div class="marquee">
+                                                <div ng-repeat="news in News" style="color:white">
+                                                        <p> 
+                                                            <img class="abtNewsImage" ng-show="news.Thumbnail" ng-src="{{news.Thumbnail}}" align="left" />
+                                                            <h5 ui-sref="school.news({scrollTo:'div{{$index}}'})" class="abtNewsTitle">{{news.Title}} </h5> <span ng-if="news.ShortDescription">{{news.ShortDescription}}</span> <span ng-if="!news.ShortDescription">{{news.Description}}</span> <a ui-sref="school.news({scrollTo:'div{{$index}}'})">more...</a>
+                                                            <hr/> 
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <h4> Thought for the  day: </h4>
+                                <div class="thought-wrapper">
+                                        <div class="thought" style="color:white">
+                                                <p> Experience is the mother of all knowledge </p>
+                                                <p style="text-align:right"><em></em></p>
+                                        </div>
+                                        <div class="thought" style="color:white">
+                                                <hr style='background-color:gold; border-width:0; color:gold; height:2px; lineheight:0; display: inline-block; text-align: left; width:100%;'
+                                                />
+                                                <p> Education is bitter but the fruit is sweet </p>
+                                                <p style="text-align:right"><em></em></p>
+                                        </div>
+                                        <div class="thought" style="color:white">
+                                                <hr style='background-color:gold; border-width:0; color:gold; height:2px; lineheight:0; display: inline-block; text-align: left; width:100%;'
+                                                />
+                                                <p> Failure is the stepping stone to success </p>
+                                                <p style="text-align:right"><em></em></p>
+                                        </div>
+                                </div>
+
+                        </div>
+
+
+                </div>
+</div>

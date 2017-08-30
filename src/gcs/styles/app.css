@@ -1,0 +1,274 @@
+body {
+	background-color:  #4A584A
+}
+.wrapper {
+	width:1004px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+	position:relative;
+	box-shadow:  0 1px 120px rgba(195, 137, 22, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.header {
+	display:block;
+	height:103px;
+	background:url(../assets/img/header_bg.png);
+}
+.logo{
+	background:url(../assets/img/vvslogo.png) no-repeat center; 
+	height: 103px;
+}
+.gcs-nav{
+	height: 103px;
+}
+ul.gcs-nav-tabs li a {
+	color: #FB9898;
+	background-color: #ad3333
+}
+ul.gcs-nav-tabs li a:hover {
+	color: black;
+}
+.content{
+	background:#FEFE99;
+	background:#FFFFC3;
+}
+footer, address {   
+    display: block;   
+}
+.footer{
+	display:block;
+	height:103px;
+	background:url(../assets/img/header_bg.png);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+}
+.footer{
+	clear:both;
+	height:180px;
+	position:relative;
+}
+.footerContent{
+	font-family:"MyriadProSemibold";
+	font-size:14px;
+	color:#FB9898;
+	margin-right:108px;
+	margin-left:27px;
+	display:inline-block;
+	vertical-align:top;
+}
+.footerContent h2{
+	font-size:24px;
+}
+.footerContent a{
+	color:#FB9898;
+}
+.footerContent p{
+	margin:0px;
+}
+.heading {
+	text-align: left;
+	color: #800000;
+	font-weight: bold;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #800000;
+    margin: 1em 0;
+    padding: 0; 
+}
+h4{
+	font-weight: bold;
+	color:#800000;
+}
+.thought-wrapper{
+	width: 375px;
+    height: 20%;    
+    padding: 25px;
+    border: 1px solid #570000;
+    box-sizing: border-box;
+	background-color: #800000;
+	max-height: 250px;
+}
+.event-wrapper{
+	width: 375px;
+    height: 378px;   
+    padding: 25px;
+    border: 1px solid #570000;
+    box-sizing: border-box;
+	background-color: #800000;
+	max-height: 100%;
+	overflow-y: scroll;
+}
+
+.img-caption{
+	width:100%;
+	text-align:center;
+}
+.pricipalImg{
+	display:inline-block;
+	margin-right:50px;
+}
+.deskofPrincipal{
+	
+	float: right;
+	width: 710px;
+	vertical-align: top;
+}
+.staffCol{
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	background:#800;
+	color:#fff;
+    padding-top:20px;
+    text-align: center;
+	display: inline-block;
+}
+.colorbox {
+    border: #0B4C72 4px solid;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+.copyright{
+	clear:both;
+	position:absolute;
+	bottom:12px;
+	right:11px;
+	font-size:0.9em;
+	color:#FB9898;
+}
+.download-brochure{
+	color:#FB9898;
+	font-size: 1.1em;
+	background-color: #800000;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+a.download-brochure:hover{
+ 	 text-decoration: none;
+	 text-decoration: underline;
+	 color: #FFFFC3;
+}
+.left-panel{
+	width:540px;
+	display:inline-block;
+}
+.left-panel h3{
+	font-weight:bold;
+	margin-top:20px;
+}
+.right-panel{
+	display: inline-block;
+	vertical-align:top;
+	padding-top:0px 25px;
+}
+.container h2{
+	font-weight:bold;
+	color:#800000;
+	border-bottom:#0B4C72 1px solid;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.address{
+	font-size:24px;
+	color:#800;
+	padding-top:25px;
+}
+.img{
+	margin-right:40px;
+}
+.title-display{
+	font-weight:bold;
+	color:#800000;
+	border-bottom:#0B4C72 1px solid;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.arrow-points li{	
+	background:url(../assets/img/arrow.png) no-repeat left center;
+	padding: 3px;
+	padding-left: 22px;
+	line-height: 25px;
+	list-style: none;	
+}
+.banner-text{
+	font-size:3em;
+	color:#122C2A;
+	opacity:0.6;
+	background-color: #FFFFC3;
+	background-color: rgba(255,255,194,0.92);
+	-webkit-border-radius: 23px 23px 23px 23px;
+	-moz-border-radius: 23px 23px 23px 23px;
+	border-radius: 23px 23px 23px 23px;
+	-webkit-box-shadow: #B3B3B3 4px 4px 4px;
+	-moz-box-shadow: #B3B3B3 4px 4px 4px; 
+	box-shadow: #B3B3B3 4px 4px 4px;
+}
+.hl-tbl-hvr > tbody > tr:hover {
+	background-color:  #595D41;
+	color: #FFFFC3;
+}
+.gcs-ach-1{
+	background:url('../assets/img/Medal1.png') center no-repeat;
+}
+.gcs-ach-2{
+	background:url('../assets/img/Medal3.png') center no-repeat;
+}  
+.bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.box{
+	background:#ee7320;
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 70px;
+    padding: 40px;
+    vertical-align: top;
+    width: 480px;
+}
+.box h3{
+	border-bottom:1px #fff solid;
+}
+.margin-style{
+	margin-left: 1%;
+}
+.abtNewsTitle{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.abtNewsImage{
+	margin-right:12px; 
+	border-radius:6px;
+}
+.newsWrap{
+	margin-left:auto;
+	margin-right:auto;
+	width:85%;
+}
+.SchoolNewsTitle{
+	color:#800000;
+}
+.SchoolNewsImageOdd{
+	margin-bottom:10px;
+	border-radius:8px;
+}
+.SchoolNewsImageEven{
+	margin-bottom:10px;
+	border-radius:8px;
+}
+.headline{
+	color: #800000;
+	cursor: pointer;
+}
+.ttshadow{
+   -webkit-box-shadow: 7px 9px 28px -8px rgba(84,30,4,1);
+   -moz-box-shadow: 7px 9px 28px -8px rgba(84,30,4,1);
+    box-shadow: 7px 9px 28px -8px rgba(84,30,4,1);
+}

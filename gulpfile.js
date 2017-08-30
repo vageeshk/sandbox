@@ -7,7 +7,7 @@ var jshint = require('gulp-jshint');
 //Release VVS
 gulp.task('releaseVvs', function () {
     gulp.src('/var/www/gcs').pipe(gulp.dest('/var/bkp/gcs'));
-    gulp.src('./src/gcs/dist/**').pipe(gulp.dest('/var/www/gcs'));
+    gulp.src('./build/gcs/**').pipe(gulp.dest('/var/www/gcs'));
     gulp.src('/var/www/sppu').pipe(gulp.dest('/var/bkp/sppu'));
     gulp.src('./src/sppu/dist/**').pipe(gulp.dest('/var/www/sppu'));
 });

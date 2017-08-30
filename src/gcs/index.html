@@ -1,0 +1,90 @@
+<!doctype html>
+<html ng-app="gcs">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="GCS Website">
+	<meta name="keywords" content="Education,School,Campus,Campustrack,Bangalore,Bengaluru">
+    <meta name="author" content="VVSGCS">
+	<title>VVS Gandhi Centenary English Primary School</title>
+	<link href="styles/normalize.css" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/vvslogo.ico">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+	crossorigin="anonymous">
+	
+	<link href="styles/app.css" rel="stylesheet" />
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+	crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="vendor/angular-ui-router-min.js"></script>
+	<!-- build:js app/app.min.js-->
+	<script src="app/header/header.js"></script>
+	<script src="app/about/about.js"></script>
+	<script src="app/the-school/theSchool.js"></script>
+	<script src="app/pre-nursery/preNursery.js"></script>	
+	<script src="app/nursery/nursery.js"></script>
+	<script src="app/primary/primary.js"></script>
+	<script src="app/contact/contact.js"></script>
+	<script src="app/app.js"></script>
+	<!-- endbuild -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+		ga('create', 'UA-67991085-3', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div gcs-header></div>
+		<div gcs-banner></div>
+		<div class="content">
+			<div ui-view>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerContent">
+				<h3 style="background-color:#AD3333;">Quick Links</h3>
+				<ul style="list-style-type:none;margin-left:-2.5em">
+					<li><a ui-sref="about">About Us</a></li>
+					<li><a ui-sref="school">The School</a></li>
+					<li><a ui-sref="preNursery">Pre-Nursery</a></li>
+					<li><a ui-sref="nursery">Nursery</a></li>
+					<li><a ui-sref="primary">Primary School</a></li>
+					<li><a ui-sref="school.news">News</a></li>
+					<li style="display:none"><a href="http://campustrack.net" target="_blank">CampusTrack</a></li>
+				</ul>
+			</div>        
+			<div class="footerContent">
+				<h3 style="background-color:#AD3333;">Contact Us</h3>
+				<h4 style="margin-bottom:1%;color:inherit">VVS Gandhi Centenary School</h4>
+				<p>1st 'N' Block, Rajajinagar<br>
+				Bangalore – 560010 </p>
+				<p style="text-decoration:underline;"> <a ui-sref = "contact"> Locate Us </a></p>
+			</div>
+			<div class="pull-right copyright">Copyright &copy; 2017 V.V.S.G.C School. All Rights Reserved
+			</div>
+			<!--<audio style="padding-top:50px" id="player" class="pull-right" style="margin-top:-9%;padding-right:1%" volume="0.3" controls>
+				<source src="assets/audio/bg_music.mp3" type="audio/mpeg">        
+			</audio>	-->
+		</div>
+	</div>
+	<script>
+		// var tm = getParameterByName('time');
+		// document.getElementById('player').currentTime=tm;
+		function getParameterByName(name) {
+ 		   name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    		var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        	results = regex.exec(location.search);
+    		return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+	</script>
+</body>
+
+</html>
