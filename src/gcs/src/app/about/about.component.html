@@ -51,7 +51,7 @@
                                         <div class="marquee">
                                                 <div *ngFor="let news of m.News ; let i = index" style="color:white">                  
                                                             <img class="abtNewsImage" [hidden]="!news.Thumbnail" src="{{news.Thumbnail}}" align="left" />
-                                                            <h5 routerLink="/schoolNews" fragment="div{{i}}" class="abtNewsTitle">{{news.Title}}</h5>
+                                                            <h5 style="outline:none" routerLink="/schoolNews" fragment="div{{i}}" class="abtNewsTitle">{{news.Title}}</h5>
                                                             <span *ngIf="news.ShortDescription">{{news.ShortDescription}}</span>
                                                             <span *ngIf="!news.ShortDescription">{{news.Description}}</span>
                                                             <a [routerLink]="['/schoolNews']" fragment="div{{i}}">more.. </a> <hr/>                                                  
