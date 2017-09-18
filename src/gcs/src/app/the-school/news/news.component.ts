@@ -4,6 +4,51 @@ import { ActivatedRoute } from '@angular/router';
 class model {
 	News: any = [
 		{ 
+			Title: 'Nursery activities for the month of August', 
+			Description: 'Photos of Nursery activities  for the month of August.',
+			ShortDescription: "Activity photos of Nursery.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1504781512/Nur_Act_8_vgzl91.jpg',
+			Image: ['assets/img/Nur_Act_9.jpg','assets/img/Nur_Act_10.jpg','assets/img/Nur_Act_11.jpg','assets/img/Nur_Act_12.jpg','assets/img/Nur_Act_1.jpg','assets/img/Nur_Act_2.jpg','assets/img/Nur_Act_3.jpg','assets/img/Nur_Act_4.jpg','assets/img/Nur_Act_5.jpg','assets/img/Nur_Act_6.jpg','assets/img/Nur_Act_7.jpg','assets/img/Nur_Act_8.jpg'],
+			Date : '07-Sep-2017'
+		},
+		{ 
+			Title: 'First Term Appraisal Time Table for Nursery', 
+			Description: 'First Term Appraisal Time Table has been announced for Nursery.',
+			Thumbnail: 'assets/img/timetable.png',
+			Image: ['assets/img/KG1_Ex_ti_.jpg','assets/img/KG2_Ex_ti_.jpg'],
+			Date : '05-Sep-2017'
+		},
+		{ 
+			Title: 'I Semester Examination Time Table for Higher Primary', 
+			Description: 'I Semester Examination Time Table has been announced for Higher Primary.',
+			Thumbnail: 'assets/img/timetable.png',
+			Image: ['assets/img/1_sem_exam_2017_v-vii-1.jpg'],
+			Date : '01-Sep-2017'
+		},
+		{ 
+			Title: 'I Semester Examination Time Table for Lower Primary', 
+			Description: 'I Semester Examination Time Table has been announced for Lower Primary.',
+			Thumbnail: 'assets/img/timetable.png',
+			Image: ['assets/img/1_semester_exam_time_table-1.jpg','assets/img/1_semester_exam_time_table-2.jpg','assets/img/1_semester_exam_time_table-3.jpg','assets/img/1_semester_exam_time_table-4.jpg'],
+			Date : '01-Sep-2017'
+		},
+		{ 
+			Title: 'Lower Primary activities for the month of August', 
+			Description: 'Photos of Lower Primary activities for the month of August.',
+			ShortDescription: "Activity photos of Lower Primary.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1503468635/Low_pri_act_aug_6_f7sdzn.jpg',
+			Image: ['assets/img/Low_pri_act_aug_1.jpeg','assets/img/Low_pri_act_aug_2.jpeg','assets/img/Low_pri_act_aug_3.jpeg','assets/img/Low_pri_act_aug_4.jpeg','assets/img/Low_pri_act_aug_5.jpeg','assets/img/Low_pri_act_aug_6.jpeg'],
+			Date : '23-Aug-2017'
+		},
+		{ 
+			Title: 'Sri Krishna Janmashtami celebration in Play home.', 
+			Description: "Photos of Sri Krishna Janmashtami celebrated in Play home on 19/08/2017, Saturday.",
+			ShortDescription: 'Photos of Sri Krishna Janmashtami celebrated in Play home',
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1503380469/kri_fun_6_lp6hvn.jpg',
+			Image: ['assets/img/kri_fun_1.jpg','assets/img/kri_fun_2.jpg','assets/img/kri_fun_3.jpg','assets/img/kri_fun_4.jpg','assets/img/kri_fun_5.jpg','assets/img/kri_fun_6.jpg'],
+			Date : '22-Aug-2017'
+		},
+		{ 
 			Title: 'Talents Search 2017-18 of lower primary.', 
 			Description: "Photos of Talents Search 2017-18 of lower primary.",
 			ShortDescription: 'Photos of Talents Search of lower primary',
