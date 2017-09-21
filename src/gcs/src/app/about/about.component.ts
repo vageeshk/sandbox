@@ -3,6 +3,14 @@ import { Component, OnInit } from '@angular/core';
 class model {
 	News: any = [
 		{ 
+			Title: 'Colour week of Playhome', 
+			Description: 'Colour week photos of Playhome.',
+			ShortDescription: "Colour week photos of Playhome.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1505968225/col_play_4_gntkct.jpg',
+			Image: ['assets/img/col_play_1.jpg','assets/img/col_play_2.jpg','assets/img/col_play_3.jpg','assets/img/col_play_4.jpg','assets/img/col_play_5.jpg','assets/img/col_play_6.jpg'],
+			Date : '21-Sep-2017'
+		},
+		{ 
 			Title: 'Nursery activities for the month of August', 
 			Description: 'Photos of Nursery activities  for the month of August.',
 			ShortDescription: "Activity photos of Nursery.",
