@@ -3,6 +3,100 @@ import { ActivatedRoute } from '@angular/router';
 
 class model {
 	News: any = [
+		{
+			Title: "Cultural Competitions for Nursery", 
+			Description: "Photos of Cultural Competitions of Nursery.",
+			ShortDescription: "Cultural Competitions photos of Higher Primary.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1514265654/Cul_Nur_16_kpczkw.jpg',
+			Image: ['assets/img/Cul_Nur_1.jpg','assets/img/Cul_Nur_2.jpg','assets/img/Cul_Nur_3.jpg','assets/img/Cul_Nur_4.jpg','assets/img/Cul_Nur_5.jpg','assets/img/Cul_Nur_6.jpg','assets/img/Cul_Nur_7.jpg','assets/img/Cul_Nur_8.jpg','assets/img/Cul_Nur_9.jpg','assets/img/Cul_Nur_10.jpg','assets/img/Cul_Nur_11.jpg','assets/img/Cul_Nur_12.jpg','assets/img/Cul_Nur_13.jpg','assets/img/Cul_Nur_14.jpg','assets/img/Cul_Nur_15.jpg','assets/img/Cul_Nur_16.jpg','assets/img/Cul_Nur_17.jpg','assets/img/Cul_Nur_18.jpg','assets/img/Cul_Nur_19.jpg','assets/img/Cul_Nur_20.jpg','assets/img/Cul_Nur_21.jpg','assets/img/Cul_Nur_22.jpg','assets/img/Cul_Nur_23.jpg'],
+			Date : '26-Dec-2017'					
+		},
+		{
+			Title: "Top Prize Winners in Higher Primary", 
+			Description: "Photo of top prize winners in higher primary in the field of Cultural, Literary and Sports Events for the academic year 2017-18. Gunashree M. of Std V 'C' has won 7 prizes (extreme left in the photo), Vasudha Srikanth of Std VI 'B' has won 7 prizes (center), Madhura Rao K. S. of Std VII 'B' has won 10 prizes (extreme right in the photo).",
+			ShortDescription: "Photo of Top Prize Winners in Higher Primary.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1514265743/top_prize_winners_ze6btj.jpg',
+			Image: ['assets/img/top_prize_winners.jpg'],
+			Date : '26-Dec-2017'					
+		},				
+		{
+			Title: "Annual Prize Distribution for Higher Primary", 
+			Description: "Photos of Annual Prize Distribution for Higher Primary held on 16-Dec-2017.",
+			ShortDescription: "Photos of Annual Prize Distribution.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1514265774/hp_prize_dist_10_ncqvfy.jpg',
+			Image: ['assets/img/hp_prize_dist_1.jpg','assets/img/hp_prize_dist_2.jpg','assets/img/hp_prize_dist_3.jpg','assets/img/hp_prize_dist_4.jpg','assets/img/hp_prize_dist_5.jpg','assets/img/hp_prize_dist_6.jpg','assets/img/hp_prize_dist_7.jpg','assets/img/hp_prize_dist_8.jpg','assets/img/hp_prize_dist_9.jpg','assets/img/hp_prize_dist_10.jpg','assets/img/hp_prize_dist_11.jpg','assets/img/hp_prize_dist_12.jpg','assets/img/hp_prize_dist_13.jpg','assets/img/hp_prize_dist_14.jpg','assets/img/hp_prize_dist_15.jpg'],
+			Date : '26-Dec-2017'					
+		},
+		{
+			Title: "Lower Primary activities for the months of Nov and Dec", 
+			Description: "Photos of Science Competition, Annual Prize Distribution Function and activities held during the months of November and December.",
+			ShortDescription: "Photos of Competitions and Prize Distribution.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1513311054/Dec_Act_17_sttpp7.jpg',
+			Image: ['assets/img/Dec_Act_7.jpg','assets/img/Dec_Act_8.jpg','assets/img/Dec_Act_9.jpg','assets/img/Dec_Act_10.jpg','assets/img/Dec_Act_11.jpg','assets/img/Dec_Act_12.jpg','assets/img/Dec_Act_13.jpg','assets/img/Dec_Act_14.jpg','assets/img/Dec_Act_1.jpeg','assets/img/Dec_Act_2.jpeg','assets/img/Dec_Act_3.jpeg','assets/img/Dec_Act_4.jpeg','assets/img/Dec_Act_5.jpeg','assets/img/Dec_Act_6.jpeg','assets/img/Dec_Act_15.jpg','assets/img/Dec_Act_16.jpg','assets/img/Dec_Act_17.jpg'],
+			Date : '15-Dec-2017'					
+		},
+		{ 
+			Title: 'II Semester I Unit Test Time Table for Lower Primary', 
+			Description: 'II Semester I Unit Test Time Table has been announced for for Lower Primary.',
+			Thumbnail: 'assets/img/timetable.png',
+			Image: ['assets/img/II Semester I Unit Test 2017-18-1-1.jpeg','assets/img/II Semester I Unit Test 2017-18-2-2.jpeg','assets/img/II Semester I Unit Test 2017-18-3-3.jpeg','assets/img/II Semester I Unit Test 2017-18-4-4.jpeg'],
+			Date : '22-Nov-2017'
+		},
+		{ 
+			Title: 'II Semester I Unit Test Time Table for Higher Primary', 
+			Description: 'II Semester I Unit Test Time Table has been announced for Higher Primary.',
+			Thumbnail: 'assets/img/timetable.png',
+			Image: ['assets/img/II Sem I Unit Test 2017-18-1.jpeg'],
+			Date : '22-Nov-2017'
+		},
+		{
+			Title: "Science Model Making Competition(Std VII)", 
+			Description: "Photos of Science Model Making Competition for Std VII, conducted on 18th November 2017.",
+			ShortDescription: "Photos of Science Model Making Competition.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1511415794/Sci_Mod_1_uca2wl.jpg',
+			Image: ['assets/img/Sci_Mod_1.jpg','assets/img/Sci_Mod_2.jpg'],
+			Date : '23-Nov-2017'					
+		},
+		{
+			Title: "NIE Street Play Winners", 
+			Description: "Photo of NIE Street Play Winners ( 16-Nov-2017 )",
+			ShortDescription: "NIE Street Play Winners Photo.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1511415794/NIE_Street_Play_Winners_mkrq6r.jpg',
+			Image: ['assets/img/NIE Street Play Winners.jpg'],
+			Date : '23-Nov-2017'					
+		},
+		{
+			Title: "Children's Day Celebrations", 
+			Description: "Photos of Children's Day Celebrations held on 14th November 2017.",
+			ShortDescription: "Photos of Children's Day Celebrations.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1511415794/Childrens_day_1_uesofg.jpg',
+			Image: ['assets/img/Childrens_day_1.jpeg','assets/img/Childrens_day_2.jpeg','assets/img/Childrens_day_3.jpeg','assets/img/Childrens_day_4.jpeg','assets/img/Childrens_day_5.jpeg'],
+			Date : '23-Nov-2017'					
+		},
+		{
+			Title: 'Cultural Competitions for Higher Primary', 
+			Description: 'Photos of Cultural Competitions of Higher Primary, conducted on 11th November 2017',
+			ShortDescription: "Cultural Competitions photos of Higher Primary.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1511415794/Cul_Comp_6_bdp2wa.jpg',
+			Image: ['assets/img/Cul_Comp_1.jpeg','assets/img/Cul_Comp_2.jpeg','assets/img/Cul_Comp_3.jpeg','assets/img/Cul_Comp_4.jpg','assets/img/Cul_Comp_5.jpg','assets/img/Cul_Comp_6.jpg',],
+			Date : '23-Nov-2017'					
+		},
+		{
+			Title: 'Kannada Rajyothsava Celebrations', 
+			Description: 'Photos of Kannada Rajyothsava Celebrations held on 1st November 2017.',
+			ShortDescription: "Kannada Rajyothsava Celebrations photos.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1511415794/Rajyothsava1_dnlzer.jpg',
+			Image: ['assets/img/Rajyothsava1.jpg','assets/img/Rajyothsava2.jpg'],
+			Date : '23-Nov-2017'					
+		},
+		{ 
+			Title: 'Competitions & Sports day photos of Lower Primary', 
+			Description: 'Photos of Various Competitions and Annual Sports of Lower Primary.',
+			ShortDescription: "Competitions and Sports day photos.",
+			Thumbnail: 'http://res.cloudinary.com/hs5fb0l8g/image/upload/c_scale,h_75,q_90,w_100/v1510134258/Comp_LowPre_2_qv4fno.jpg',
+			Image: ['assets/img/Comp_LowPre_1.jpeg','assets/img/Comp_LowPre_2.jpeg','assets/img/Comp_LowPre_3.jpeg','assets/img/Comp_LowPre_4.jpeg','assets/img/Comp_LowPre_5.jpeg','assets/img/Comp_LowPre_6.jpg','assets/img/Comp_LowPre_7.jpg','assets/img/Comp_LowPre_8.jpg','assets/img/Comp_LowPre_9.jpg','assets/img/Comp_LowPre_10.jpg'],
+			Date : '08-Nov-2017'
+		},
 		{ 
 			Title: 'Colour week of Playhome', 
 			Description: 'Colour week photos of Playhome.',
